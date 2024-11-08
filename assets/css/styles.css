@@ -933,10 +933,7 @@ right: 6rem;
   }
 
   .contact__data{
-    grid-template-columns: repeat(2, max-width);
-    text-align: initial;
-    gap: 4.5rem 2rem;
-    order: 1;
+    justify-content: center;
   }
   .contact__social{
     justify-content: initial;
@@ -945,8 +942,10 @@ right: 6rem;
     margin-bottom: 1rem;
   }
   .contact__image{
-    position: relative;
     width: 100%;
+    position: absolute;
+    left: 3rem;
+    top: 12rem;
   }
   .contact__img{
     width: 420px;
@@ -956,8 +955,8 @@ right: 6rem;
 
   .contact__sticker-1{
     width: 70px;
-    left: 27rem;
-    top: 10rem;
+    left: 4%;
+    top: 1rem;
   }
   .contact__sticker-2{
     width: 40px;
