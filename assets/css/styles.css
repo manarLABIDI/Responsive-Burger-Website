@@ -791,7 +791,7 @@ right: 6rem;
     grid-template-columns: 430px 605px;
     align-items: center;
     column-gap: 4rem;
-    padding-block: 7rem 4rem;
+    padding-block: .7rem 4rem;
   }
   .home__data{
     text-align: initial;
@@ -807,7 +807,7 @@ right: 6rem;
   }
 
   .home__burger{
-    width: 490px;
+    width: 430px;
   }
   .home__dish{
     width: 560px;
